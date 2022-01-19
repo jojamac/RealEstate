@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.IdentityController.GetTokenAsync(Application.DTOs.Identity.TokenRequest)">
+            <summary>
+            Generates a JSON Web Token for a valid combination of emailId and password.
+            </summary>
+            <param name="tokenRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.IdentityController.RefreshToken(Application.DTOs.Identity.RefreshTokenRequest)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.IdentityController.RegisterAsync(Application.DTOs.Identity.RegisterRequest)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.IdentityController.ConfirmEmailAsync(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="userId"></param>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.IdentityController.ForgotPassword(Application.DTOs.Identity.ForgotPasswordRequest)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.IdentityController.ResetPassWord(Application.DTOs.Identity.ResetPasswordRequest)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.OwnerController.GetAll">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.OwnerController.GetById(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.OwnerController.Post(Application.DTOs.Owner.OwnerDTO)">
+            <summary>
+            
+            </summary>
+            <param name="ownerDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.OwnerController.Put(System.Int32,Application.Features.Owners.Commands.Update.UpdateOwnerCommand)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.OwnerController.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.PropertyController.GetAll(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.PropertyController.GetById(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.PropertyController.Post(Application.Features.Propertys.Commands.Create.CreatePropertyCommand)">
+            <summary>
+            
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.PropertyController.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.PropertyImageController.GetAll">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.PropertyImageController.GetByIdProperty(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.PropertyImageController.Post(Application.DTOs.PropertyImage.PropertyImageDTO)">
+            <summary>
+            
+            </summary>
+            <param name="propertyImageDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.PropertyImageController.Put(System.Int32,Application.Features.PropertyImages.Commands.Update.UpdatePropertyImageCommand)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.PropertyImageController.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.PropertyTraceController.GetAll">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.PropertyTraceController.GetById(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.PropertyTraceController.Post(Application.Features.PropertyTraces.Commands.Create.CreatePropertyTraceCommand)">
+            <summary>
+            
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.PropertyTraceController.Put(System.Int32,Application.Features.PropertyTraces.Commands.Update.UpdatePropertyTraceCommand)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.PropertyTraceController.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
